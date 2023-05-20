@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "secondary-brand-color": "#4C3398",
-        "brand-color": "#5D3EBC",
-        "brand-yellow": "#ffd300"
+        "brand-color": "#4C3398",
+        "secondary-brand-color": "#5D3EBC",
+        "brand-yellow": "#FFD300"
       },
       fontFamily: {
         "open-sans": "'Open Sans', sans-serif"
