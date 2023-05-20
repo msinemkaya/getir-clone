@@ -10,6 +10,9 @@ module.exports = {
         "brand-color": "#5D3EBC",
         "brand-yellow": "#ffd300"
       },
+      fontFamily: {
+        "open-sans": "'Open Sans', sans-serif"
+      },
     },
   },
   plugins: [],
