@@ -24,7 +24,7 @@ export default function Header({}) {
 
   return (
     <div className='bg-brand-color'>
-      <div className='container mx-auto h-11 flex items-center justify-between'>
+      <div className='container mx-auto h-11 flex items-center justify-between px-6'>
         <a href='/'>
           <Logo />
         </a>
