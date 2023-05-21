@@ -37,7 +37,7 @@ export default function HeroSection({}) {
             kapınızda
           </h3>
         </div>
-        <Auth />
+        <Auth className={'w-96 rounded-lg bg-gray-50'}/>
       </div>
     </div>
   );

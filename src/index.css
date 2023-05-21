@@ -4,10 +4,22 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
 
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 html, body {
   @apply font-open-sans
+}
+
+.flag-select {
+  @apply !pb-0
+}
+
+.flag-select button {
+  @apply h-14 border-2 border-gray-200 hover:border-secondary-brand-color transition-all duration-300 rounded-md pb-0
+}
+
+.flag-select button > span span:nth-child(2) {
+  @apply text-sm pl-1
 }
