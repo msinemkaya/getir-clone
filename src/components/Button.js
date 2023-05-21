@@ -40,19 +40,19 @@ export default function Button({
 }
 
 Button.propTypes = {
-  checkVariationValue: ({ primary, secondary, yellow }) => {
+  checkBackgroundVariationValue: ({ primary, secondary, yellow }) => {
     const count = Number(!!primary) + Number(!!secondary) + Number(!!yellow)
 
     if (count > 1) {
-      return new Error('only one type can be true')
+      return new Error('only one type can be true as the background color')
     }
   },
-  checkVariationValue: ({ textPrimary, textSecondary, textYellow }) => {
+  checkTextVariationValue: ({ textPrimary, textSecondary, textYellow }) => {
     const count =
       Number(!!textPrimary) + Number(!!textSecondary) + Number(!!textYellow)
 
     if (count > 1) {
-      return new Error('only one type can be true')
+      return new Error('only one type can be true as the text color')
     }
   },
 }
