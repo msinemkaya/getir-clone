@@ -1,23 +1,9 @@
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import SliderItem from './SliderItem';
 import { ReactComponent as Icon } from 'components/imgs/getir_hero_icon.svg'
 import Auth from './Auth';
 import Container from './Container';
+import CustomSlider from './CustomSlider';
 
 export default function HeroSection({}) {
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 3000
-  };
 
   const SliderImages = [
     'https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-4.jpg',
@@ -27,9 +13,7 @@ export default function HeroSection({}) {
   return(
     <div className='relative before:bg-gradient-to-r before:from-brand-color before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10'>
 
-      <Slider {...settings}>
-        {SliderImages.map((image, index) => <SliderItem img={image} key={index}/>)}
-      </Slider>
+      <CustomSlider SliderImages={SliderImages} imageClasses={'w-full h-[31.25rem] object-cover'} slidesToShow={1} />
 
       <Container className={'absolute justify-between top-0 left-1/2 -translate-x-1/2 h-full z-20'}>
         <div>

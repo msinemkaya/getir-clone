@@ -1,7 +1,8 @@
-export default function ({ img }) {
+export default function ({ img, className }) {
+
   return (
     <div>
-      <img src={img} className='w-full h-[31.25rem] object-cover'/>
+      <img src={img} className={className}/>
     </div>
   )
 }
