@@ -2,6 +2,7 @@ import { ReactComponent as Logo } from 'components/imgs/getir_logo.svg'
 import { BsGlobe2 } from 'react-icons/bs'
 import { AiOutlineUser, AiOutlineUserAdd } from 'react-icons/ai'
 import NavLink from './NavLink'
+import Container from './Container'
 
 export default function Header({}) {
   const navLinks = [
@@ -24,7 +25,8 @@ export default function Header({}) {
 
   return (
     <div className='bg-brand-color'>
-      <div className='container mx-auto h-11 flex items-center justify-between px-6'>
+      <Container className={'h-11 justify-between'}>
+        
         <a href='/'>
           <Logo />
         </a>
@@ -54,7 +56,8 @@ export default function Header({}) {
             }
           })}
         </nav>
-      </div>
+        
+      </Container>
     </div>
   )
 }
