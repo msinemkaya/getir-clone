@@ -25,7 +25,7 @@ export default function Header({}) {
 
   return (
     <div className='bg-brand-color'>
-      <Container className={'h-11 justify-between'}>
+      <Container className={'flex items-center h-11 justify-between'}>
         
         <a href='/'>
           <Logo />
