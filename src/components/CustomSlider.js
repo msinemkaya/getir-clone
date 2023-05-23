@@ -18,7 +18,7 @@ export default function CustomSlider({  SliderImages, imageClasses, slidesToShow
   };
 
   return(
-    <Slider {...settings}>
+    <Slider {...settings} >
         {SliderImages.map((image, index) => <SliderItem img={image} key={index} className={ imageClasses }/>)}
     </Slider>
   );
