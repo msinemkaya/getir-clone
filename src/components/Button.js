@@ -5,6 +5,7 @@ export default function Button({
   primary,
   secondary,
   yellow,
+  white,
   rounded,
   textSecondary,
   textPrimary,
@@ -19,6 +20,7 @@ export default function Button({
       rounded: rounded,
       'bg-brand-color': primary,
       'bg-secondary-brand-color': secondary,
+      'bg-white': white,
       'text-secondary-brand-color': textSecondary,
       'text-brand-color': textPrimary,
       'text-brand-yellow': textYellow,
@@ -33,6 +35,9 @@ export default function Button({
         secondary && textYellow,
       'hover:bg-brand-color hover:text-secondary-brand-color':
         secondary && textPrimary,
+      'hover:bg-brand-color hover:text-white': white && textPrimary,
+      'hover:bg-secondary-brand-color hover:text-white': white && textSecondary,
+      'hover:bg-brand-yellow hover:text-white': white && textYellow,
     }
   )
 
@@ -40,8 +45,8 @@ export default function Button({
 }
 
 Button.propTypes = {
-  checkBackgroundVariationValue: ({ primary, secondary, yellow }) => {
-    const count = Number(!!primary) + Number(!!secondary) + Number(!!yellow)
+  checkBackgroundVariationValue: ({ primary, secondary, yellow, white }) => {
+    const count = Number(!!primary) + Number(!!secondary) + Number(!!yellow) + Number(!!white)
 
     if (count > 1) {
       return new Error('only one type can be true as the background color')
