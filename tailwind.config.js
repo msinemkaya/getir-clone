@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         "open-sans": "'Open Sans', sans-serif"
       },
+      backgroundImage: {
+        "mobile-app": "url('https://cdn.getir.com/getirweb-images/common/illustration/doodle.png')"
+      }
     },
   },
   plugins: [],

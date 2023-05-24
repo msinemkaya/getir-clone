@@ -7,7 +7,7 @@ export default function FavoriteItem({ product }) {
 
   return (
     <div className='bg-white relative flex flex-col gap-y-1 items-center text-center text-sm font-semibold p-3'>
-      <Button white textSecondary className={'absolute top-3 right-3 w-8 h-8 border border-gray-200 rounded-lg'}>
+      <Button white textSecondary className={'absolute top-3 right-3 !w-8 h-8 border border-gray-200 rounded-lg'}>
         <AiOutlinePlus size={16}/>
       </Button>
       <img src={image} alt='' />
