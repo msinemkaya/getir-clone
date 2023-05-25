@@ -15,8 +15,8 @@ export default function HeroSection({}) {
 
       <CustomSlider SliderImages={SliderImages} imageClasses={'w-full h-[31.25rem] object-cover'} slidesToShow={1} />
 
-      <Container className={'flex items-center absolute justify-between top-0 left-1/2 -translate-x-1/2 h-full z-20'}>
-        <div>
+      <Container className={'flex items-center absolute sm:justify-between justify-center top-0 left-1/2 -translate-x-1/2 h-full z-20'}>
+        <div className='hidden sm:block'>
           <Icon />
           <h3 className='mt-8 text-4xl font-semibold text-white'>
             Dakikalar içinde

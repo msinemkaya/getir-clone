@@ -31,7 +31,7 @@ export default function Header({}) {
           <Logo />
         </a>
 
-        <nav className='flex gap-x-8 text-sm font-semibold'>
+        <nav className='flex gap-x-4 sm:gap-x-8 text-sm font-semibold'>
           {/* <NavLink to={'#'}>
             <BsGlobe2 />
             Türkçe (TR)
@@ -49,8 +49,8 @@ export default function Header({}) {
             if (link.logo) {
               return (
                 <NavLink to={link.to} key={index}>
-                  {link.logo}
-                  {link.text}
+                  <span className='text-md sm:text-sm'>{link.logo}</span>
+                  <span className='hidden sm:block'>{link.text}</span>
                 </NavLink>
               )
             }

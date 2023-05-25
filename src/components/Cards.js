@@ -11,7 +11,7 @@ export default function Cards({  }){
   }, [])
 
   return(
-    <div className='flex gap-2 items-center justify-center text-center mb-6'>
+    <div className='flex flex-col md:flex-row gap-2 items-center justify-center text-center mb-6'>
       {cards.map(card => (
         <Card key={card.id} card={card} />
       ))}

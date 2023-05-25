@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
 
-export default function CustomSlider({  SliderImages, imageClasses, slidesToShow }){
+export default function CustomSlider({  SliderImages, imageClasses, slidesToShow , responsive}){
 
   const settings = {
     dots: false,
@@ -14,7 +14,8 @@ export default function CustomSlider({  SliderImages, imageClasses, slidesToShow
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 3000
+    autoplaySpeed: 3000,
+    responsive
   };
 
   return(

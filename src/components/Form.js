@@ -2,7 +2,7 @@ import classNames from 'classnames';
 
 export default function Form({ className, children }){
 
-  const finalClasses = classNames('p-6', className)
+  const finalClasses = classNames('p-3 sm:p-6', className)
 
   const handleSubmit = (e) => {
     e.preventDefault()

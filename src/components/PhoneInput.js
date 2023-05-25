@@ -42,7 +42,7 @@ export default function PhoneInput({  }){
             value={value}
             onChange={handleChange}
           />
-          <span ref={inputSpan} className={`${value ? 'h-6 text-xs !text-brand-color' : ''} absolute inset-0 h-full px-4 flex items-center text-gray-500 text-sm peer-focus:h-6 peer-focus:text-xs peer-focus:text-secondary-brand-color transition-all peer-valid:h-6 peer-valid:text-secondary-brand-color peer-valid:text-xs`}>
+          <span ref={inputSpan} className={`${value ? 'h-6 text-xs !text-brand-color' : ''} absolute inset-0 h-full px-4 flex items-center text-gray-500 text-sm peer-focus:h-6 peer-focus:text-xs peer-focus:text-secondary-brand-color transition-all peer-valid:h-6 peer-valid:text-secondary-brand-color peer-valid:text-xs whitespace-nowrap`}>
             Telefon Numarası
           </span>
         </label>

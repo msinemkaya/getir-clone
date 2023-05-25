@@ -15,7 +15,7 @@ export default function Favorites({  }){
   return(
     <Container>
       <Heading as={'h3'}>Favoriler</Heading>
-      <div className='grid grid-cols-4 md:grid-cols-8 rounded-lg overflow-hidden gap-px'>
+      <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 rounded-lg overflow-hidden gap-px'>
         {products.length && products.map(product => <FavoriteItem key={product.id} product={product} />)}
       </div>
     </Container>

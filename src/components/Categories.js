@@ -17,7 +17,7 @@ export default function Categories({  }){
       <div className='bg-white py-4'>
         <Container>
           <Heading as={'h3'}>Kategoriler</Heading>
-          <div className='grid grid-cols-5 lg:grid-cols-10'>
+          <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-10'>
             {categories && categories.map(category => <Category key={category.id} category={category}/>)}
           </div>
         </Container>

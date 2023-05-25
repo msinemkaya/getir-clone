@@ -88,7 +88,7 @@ export default function Footer({  }){
   return(
     <div className='bg-white'>
       <Container>
-        <div className='grid grid-cols-4 p-6 gap-4'>
+        <div className='grid sm:grid-cols-4 p-6 gap-4'>
           {cols.map(col => (
             <FooterCols col={col}/>
           ))}
