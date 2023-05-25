@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "image": "https://getir.com/_next/static/images/intro-in-minutes-a7a9238a73013642a6597c4db06653c1.svg",
+        "image": "https://getir.uk/_next/image/?url=https%3A%2F%2Flanding-strapi-images-development.s3.eu-west-1.amazonaws.com%2Feveryday_products_d851e0a63f.svg&w=256&q=75",
         "title": "Her siparişinize bir kampanya",
         "description": "Getir’de vereceğiniz her siparişe uygun bir kampanya bulabilirsiniz."
     },
     {
         "id": 2,
-        "image": "https://getir.com/_next/static/images/intro-market-courier-34cd8b0ca1d547580d506566edfacf8d.svg",
+        "image": "https://getir.uk/_next/image/?url=https%3A%2F%2Flanding-strapi-images-development.s3.eu-west-1.amazonaws.com%2Fdelivery_in_minutes_fa412d61a9.svg&w=256&q=75",
         "title": "Dakikalar içinde kapınızda",
         "description": "Getir’le siparişiniz dakikalar içinde kapınıza gelir."
     },
     {
         "id": 3,
-        "image": "https://getir.com/_next/static/images/intro-discount-6248544cb695830a2e25debd3c0f3d29.svg",
+        "image": "https://getir.uk/_next/image/?url=https%3A%2F%2Flanding-strapi-images-development.s3.eu-west-1.amazonaws.com%2Fno_substitutions_2e96141d61.svg&w=256&q=75",
         "title": "Binlerce çeşit mutluluk",
         "description": "Getir’de binlerce çeşit arasından seçiminizi yapabilirsiniz."
     }

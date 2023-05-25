@@ -16,7 +16,7 @@ export default function MobileApp({  }){
   ]
 
   return(
-    <Container className={'bg-brand-color bg-mobile-app p-10 mt-7 rounded-lg text-white grid grid-cols-2 relative mx-4 max-w-fit'}>
+    <Container className={'bg-brand-color bg-mobile-app p-10 mt-7 rounded-lg text-white grid grid-cols-2 relative mx-4 max-w-fit mb-6'}>
       <div className=''>
         <Heading as={'h3'} className={'text-2xl font-bold tracking-tight'}>Getir'i indirin</Heading>
         <p className='font-semibold mb-9'>İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.</p>
